@@ -1,0 +1,145 @@
+#!/bin/bash
+# Written by: M.B. Hudson (2020) 
+clear
+for i in {80..226} {226..80} ; do echo -en "\e[38;5;${i}mBy:M.B. Hudson \e[0m" ; done ; echo
+sleep 2
+
+ function Vigilance_Recon
+{
+option=0
+until [ "$option" = "1" ]; do
+echo "  1.) Connect to TOR/Proxy                 4.) Full Port Scan                t.) Target Notes"
+echo "  2.) Dissconnect TOR/PROXY                5.) Custom Port Scan"
+echo "  3.) Nmap                                 6.) Custom Proxy"
+echo -e "                                                                           \e[41m b.) Main Menu" "\e[49m"
+echo -n "vigilante@torhunter:~#:"
+read option
+echo ""
+case $option in
+    1 ) terminator 2>/dev/null -e "/root/Vigilante-Toolset/proxy.sh" & press_enter ;;  
+    2 ) service tor stop ; press_enter ;;
+    3 ) nmap 127.0.0.1 -PN ; press_enter ;;
+    4 ) terminator 2>/dev/null -e "/root/Vigilante-Toolset/nmap.sh" & press_enter ;; 
+    5 ) terminator 2>/dev/null -e "/root/Vigilante-Toolset/cport.sh" & press_enter ;;
+    6 ) terminator 2>/dev/null -e "/root/Vigilante-Toolset/cproxy.sh" & press_enter ;;
+    t ) terminator 2>/dev/null -e "nano /root/Vigilante-Toolset/targets.txt" & press_enter ;;    
+    b ) main_menu ;;
+    * ) tput setf 4;echo "echo -n "vigilante@torhunter:~#:"";tput setf 4; 
+esac
+done
+ }
+
+ 
+ function Vengeance_Exploit 
+{
+option=0
+until [ "$option" = "2" ]; do
+echo "  1.) Database Exploit/Injection             5.) Automated Password Cracking    t.) Target Notes"
+echo "  2.) XSS/Vulnerability Scan                 6.) DDoS(Xerxes)"
+echo "  3.) Full Site Mapper                       7.) DDoS(Xerxes x4) Port 8000"
+echo "  4.) Directory Scan                         8.) Customized DDoS"
+echo -e "                                                                           \e[41m b.) Main Menu" "\e[49m"
+echo -n "vigilante@torhunter:~#:"
+read option
+echo ""
+case $option in
+    1 ) terminator 2>/dev/null -e "/root/Vigilante-Toolset/sql.sh" & press_enter ;;
+    2 ) terminator 2>/dev/null -e "nikto -host 127.0.0.1 -port 8000" & press_enter ;;
+    3 ) terminator 2>/dev/null -e "uniscan -u http://127.0.0.1:8000 -qwedsrgj" & ;;
+    4 ) terminator 2>/dev/null -e "uniscan -u http://127.0.0.1:8000 -q" & ;;
+    5 ) terminator 2>/dev/null -e "/root/Vigilante-Toolset/bruTOR.sh" & press_enter ;;
+    6 ) etherape 2>/dev/nul | terminator 2>/dev/null -e "/root/Vigilante-Toolset/ddos.sh" & press_enter ;;
+    7 ) etherape 2>/dev/nul | terminator 2>/dev/null -e "/root/Vigilante-Toolset/ddosx4.sh" & press_enter ;;
+    8 ) etherape 2>/dev/nul | terminator 2>/dev/null -e "/root/Vigilante-Toolset/cDDoS" & press_enter ;;
+    t ) terminator 2>/dev/null -e "nano /root/Vigilante-Toolset/targets.txt" & press_enter ;;
+    b ) main_menu ;;
+    * ) tput setf 4;echo "echo -n "vigilante@torhunter:~#:"";tput setf 4; 
+esac
+done
+ }
+
+clear
+function Verbose_Report
+{
+option=0
+until [ "$option" = "3" ]; do
+ echo "  1.) Geolocate IP on a Map                                                         t.) Target Notes"
+ echo "  2.) File Uploader (Send link is email)"
+ echo "  3.) Anonymous E-Mail"
+ echo -e "                                                                           \e[41m b.) Main Menu" "\e[49m"
+ echo -n "vigilante@torhunter:~#:"
+ read option
+ echo ""
+ case $option in
+ 1 ) xdg-open 2>/dev/null https://iplocation.com/ ;;
+ 2 ) /root/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/start-tor-browser https://www.filedropper.com/ --no-remote & press_enter ;;
+ 3 ) /root/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/start-tor-browser https://protonirockerxow.onion/ --no-remote & press_enter ;;
+ t ) terminator 2>/dev/null -e "nano /root/Vigilante-Toolset/targets.txt" & press_enter ;;
+ secret ) terminator 2>/dev/null -e "nano /root/Vigilante-Toolset/wordlists/passswords.txt" & press_enter ;;
+ b ) main_menu ;;
+ * ) tput setf 3;echo "echo -n "vigilante@torhunter:~#:"";tput setf 3;
+ esac
+ done
+}
+
+function main_menu 
+{
+option=0
+until [ "$option" = "4" ]; do
+
+clear
+echo -e  "\033[31m==================================================================================================\e[0m"
+echo -e  "\033[31m==================================================================================================\e[0m"
+echo -e  "------------------------------------- \e[7mCTRL+C to stop script \e[27m--------------------------------------"
+echo -e  "\033[31m==================================================================================================\e[0m"
+echo -e  "\033[31m==================================================================================================\e[0m" 
+echo -e  "\e[34m       ##### /      ##                             ###                                             \e[0m"
+echo -e  "\e[34m   ######  /    #####      #                 #      ###                                            \e[0m"
+echo -e  "\e[34m  /#   /  /       #####   ###               ###     ##                              #              \e[0m"
+echo -e  "\e[34m /    /  ##       / ##     #                 #      ##                             ##              \e[0m"
+echo -e  "\e[94m     /  ###      /                                  ##                             ##              \e[0m"
+echo -e  "\e[94m   # #   ##      #       ###       /###     ###     ##      /###    ###  /###     ######## /##     \e[0m"
+echo -e  "\e[94m   ##    ##      /        ###     /  ###   / ###    ##     / ###   / ###/ #### / ######## / ###    \e[0m"
+echo -e  "\e[94m   ##    ##     /          ##    /    ### /   ##    ##    /   ###  |  ##   ###/     ##   /   ###   \e[0m"
+echo -e  "\e[33m    ##   ##     #          ##   ##     ##     ##    ##   ##    ##     ##    ##      ##  ##    ###  \e[0m"
+echo -e  "\e[36m     ##  ##     /          ##   ##     ##     ##    ##   ##    ##     ##    ##      ##  ########   \e[0m"
+echo -e  "\e[36m     ##  ##    /           ##   ##     ##     ##    ##   ##    ##     ##    ##      ##  #######    \e[0m"
+echo -e  "\e[36m     ## #     #            ##   ##     ##     ##    ##   ##    ##     ##    ##      ##  ##         \e[0m"
+echo -e  "\e[35m     ###     /             ##   ##     ##     ##    ##   ##    /#     ##    ##      ##  ####    /  \e[0m"   
+echo -e  "\e[35m      ######/              ### / ########     ### / ### / ####/ ##    ###   ###     ##   ######/   \e[0m"
+echo -e  "\e[35m          ##               ##/    ### ###      ##/   ##/   ###   ##   ###   ###     ##    #####    \e[0m"
+echo -e  "\e[95m                                     ###                                                           \e[0m"
+echo -e  "\e[95m                             ####   ###                                                            \e[0m"                                                                                                                             
+echo -e  "\e[95m                           /######  /#                                                             \e[0m" 
+echo -e  "\e[95m                          /     ###/                                                               \e[0m" 
+echo -e  "\033[31m==================================================================================================\e[0m"
+echo -e  "\033[31m==================================================================================================\e[33m"
+echo -e  "-------------------------------------------By: \e[33mM.B. Hudson----------------------------------------\e[0m"
+echo -e  "\033[31m==================================================================================================\e[0m"
+echo -e  "\033[31m==================================================================================================\e[0m"   
+echo -e  "\e[5m   This software is for educational purposes ONLY and not meant to be used illegally in any way!\e[0m"
+ echo "--------------------------------------------------------------------------------------------------"
+echo
+echo
+echo
+ echo -e "\e[91m       1.) Vigilance/Recon          2.) Vengeance/Exploit            3.) Verbose/Report\e[0m"
+echo                                    
+echo                                                              
+echo
+ echo -e "                                                                                        \e[41m q.) Quit" "\e[49m"
+ echo "Type option or help and press ENTER"
+echo 
+ echo -e -n "\e[38;5;82mvigilante@\e[38;5;198ttorhunter:~#:\e[0m" 
+read option
+echo ""
+case $option in
+    1 ) Vigilance_Recon ; press_enter ;;
+    2 ) Vengeance_Exploit ; press_enter ;;
+    3 ) Verbose_Report ; press_enter ;;
+    help ) xdg-open 2>/dev/null https://github.com/MBHudson/Vigilante-Toolset#usage ;;
+    q ) exit ;;
+    * ) tput setf 4;echo -n "vigilante@torhunter:~#:";tput setf 4;                    
+esac
+done
+ }
+main_menu
