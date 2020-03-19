@@ -5,24 +5,22 @@
 <br />
 <p align="center">  
 <a href="https://youtu.be/aD8f5_Y3tsI"><img border="0" alt="DEMO/TUTORIAL" src="https://github.com/MBHudson/Vigilante-Toolset/blob/master/VigilanteVideoThumb.png" width="500" height="300" align="middle">
-  </a>
+</a>
 
-  <p align="center">
-    World's most effective TOR hacking toolkit designed specifically to combat illegal child exploitation websites. !!!Vigilante-Toolset is for EDUCATIONAL PURPOSES ONLY and should NEVER BE USED ILLEGALLY!!!
-    <br />
-    <a href="https://www.youtube.com/watch?v=-UL2hAGz8_0"><strong>Proof of Concept/Tutorial Videos »</strong></a>
-    <br />
-    <br />
-<p align="center">  
-    <a href="https://github.com/MBHudson/repo">Manual</a>
-    ·
-    <a href="https://github.com/MBHudosn/repo/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/MBHudosn/repo/issues">Request Feature</a>
-  </p>
-</p>
 <p align="center">
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vigilantetoolset%40gmail.com&currency_code=USD&source=url"><img border="0" alt="Donate" src="https://github.com/MBHudson/Vigilante-Toolset/blob/master/btn_donateCC_LG.gif" width="200" height="70" 
+TOR hacking toolkit designed specifically to combat illegal child exploitation websites. !!!Vigilante-Toolset is for EDUCATIONAL PURPOSES ONLY and should NEVER BE USED ILLEGALLY!!!
+<br />
+<a href="https://www.youtube.com/watch?v=-UL2hAGz8_0"><strong>Proof of Concept/Tutorial Videos »</strong></a>
+<br />
+<br />
+<p align="center">  
+<a href="https://github.com/MBHudson/repo">Manual</a>
+·
+<a href="https://github.com/MBHudosn/repo/issues">Report Bug</a>
+·
+<a href="https://github.com/MBHudosn/repo/issues">Request Feature</a>
+</p>
+</p>
 
 >> 
 ## Table of Contents
@@ -111,7 +109,7 @@ These should be the only things the installer downloads as Kali should have the 
 
 ----
 If you are installing from .Zip file rename "Vigilante-Toolset-Master" to just "Vigilante-Toolset" and skip to step two
- 
+
 1. Clone the repo
 ```sh
 git clone https://github.com/MBHudson/Vigilante-Toolset.git
@@ -165,9 +163,9 @@ Press the letter "t" in any menu to access your TARGET notes. To save notes pres
 
 <a href="https://github.com/MBHudson/Vigilante-Toolset/blob/master/README.md#usage"><img border="0" alt="DEMO/TUTORIAL" src="https://github.com/MBHudson/Vigilante-Toolset/blob/master/menu2.png" width="350" height="150" align="middle"> </a>
 
- Here we have many different tools most I'm sure you are familur with, everything is clearly labeled. For stragity and how to use these tool specificaly see [Manifesto](#Manifesto)
+Here we have many different tools most I'm sure you are familur with, everything is clearly labeled. For stragity and how to use these tool specificaly see [Manifesto](#Manifesto)
 
- ### Menu "3"
+### Menu "3"
 
 <a href="https://github.com/MBHudson/Vigilante-Toolset/blob/master/README.md#usage"><img border="0" alt="DEMO/TUTORIAL" src="https://github.com/MBHudson/Vigilante-Toolset/blob/master/menu3.png" width="350" height="150" align="middle"> </a>
 
@@ -245,4 +243,3 @@ To be honest I have no idea how this whole licensing part works. If there is any
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
- 
