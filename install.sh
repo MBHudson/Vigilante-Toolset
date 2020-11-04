@@ -12,16 +12,13 @@ apt-get install nmap -y
 apt-get install torbrowser-launcher -y
 apt-get install etherape -y
 apt install proxychains4 -y
-apt install docker -y
-apt install docker.io -y
+apt install docker
+apt install docker.io
 gcc ddos.c -o ddos
 gcc cDDoS.c -o cDDoS
-chmod +x ddos
-chmod +x cDDoS
 chmod +x proxy.sh
 chmod +x cproxy.sh
 chmod +x bruTOR.sh
-chmod +x bruTOR
 chmod +x cport.sh
 chmod +x ddos.sh
 chmod +x ddos8000.sh
