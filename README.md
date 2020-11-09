@@ -1,5 +1,7 @@
 ----
 **<h1 align="center">Vigilante-Toolset</h1>**
+**<h3 align="center">11/9/2020 update: Installer fixed, Missing files uploaded</h3>**
+**<h3 align="center">Will now run with newest versions of Kali and Parrot OS</h3>**
 
 ----
 <br />
@@ -122,11 +124,16 @@ cd Vigilante-Toolset
 ```sh
 chmod +x ./install.sh
 ```
-4. Run Installer
+4. Edit Installer
+```sh
+Open "install.sh" and replace ALL "PUT_USER_NAME_HERE" strings to with the username of the session you installed to. ex: kali
+```
+
+5. Run Installer
 ```sh
 ./install.sh
 ```
-4. Run Vigilante-Toolset
+6. Run Vigilante-Toolset
 ```sh
 ./Vigilante
 ```
