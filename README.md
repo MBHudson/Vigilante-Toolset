@@ -1,6 +1,6 @@
 ----
 **<h1 align="center">Vigilante-Toolset</h1>**
-<h2 align="center">11/9/2020 update: Installer fixed, Missing files uploadedWill now run with newest versions of Kali and Parrot OS. If you have already installed Vigilante-Toolset please re-read the installation documentation and reinstall the program.</h2>
+<h2 align="center">11/9/2020 Update: Installer fixed, missing files uploaded. Will now run with the newest versions of Kali and Parrot OS. If you have already installed Vigilante-Toolset please re-read the installation documentation and reinstall the program.</h2>
 
 ----
 <br />
