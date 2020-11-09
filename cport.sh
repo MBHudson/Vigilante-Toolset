@@ -12,5 +12,5 @@ echo "-p 21,22,23,25,80,135,139,443,8080,8000,9050,4444 wwfmgeecv2aflaopqvfdad.o
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echo "Enter TARGET:"
 read vartarget
-docker run --rm -it milesrichardson/onion-nmap $vartarget
+sudo docker run --rm -it milesrichardson/onion-nmap $vartarget
 read -p "Press [Enter] key to start backup..."

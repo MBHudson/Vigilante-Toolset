@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Connecting to TOR.
-service tor start
+sudo service tor start
 clear
 echo Connecting to TOR..
 sleep .4
@@ -27,7 +27,7 @@ echo "If attacking a SQL server use something like http://www.site.com/vuln.php?
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echo "Enter TARGET URL:"
 read vartarget
-socat TCP4-LISTEN:8000,reuseaddr,fork SOCKS4A:127.0.0.1:$vartarget:80,socksport=9050
+sudo socat TCP4-LISTEN:8000,reuseaddr,fork SOCKS4A:127.0.0.1:$vartarget:80,socksport=9050
 
 
 

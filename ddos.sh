@@ -18,4 +18,4 @@ echo
 echo
 echo "Enter PORT:"
 read varport
-/root/Vigilante-Toolset/ddos 127.0.0.1 $varport
+sudo /home/binbash/Vigilante-Toolset/ddos 127.0.0.1 $varport

@@ -27,5 +27,5 @@ echo "If attacking a SQL server use something like http://site.com/vuln.php?id=1
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echo "Enter TARGET URL:"
 read vartarget
-socat TCP4-LISTEN:8000,reuseaddr,fork SOCKS4A:127.0.0.1:$vartarget,socksport=9050
+sudo socat TCP4-LISTEN:8000,reuseaddr,fork SOCKS4A:127.0.0.1:$vartarget,socksport=9050
 
