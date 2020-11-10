@@ -30,6 +30,7 @@ sudo chmod +x run.sh
 sudo chmod +x sql.sh
 sudo chmod +x Vigilante
 echo "PLEASE ENTER THE USERNAME OF THE SESSION YOU ARE CURRENTLY LOGGED IN AS:" 
+echo " YOUR USERNAME IS PROBABLY:" "$USER"
 read varusername 
 sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' Vigilante
 sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' bruTOR.sh
