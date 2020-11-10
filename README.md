@@ -113,7 +113,7 @@ If you are installing from .Zip file rename "Vigilante-Toolset-Master" to just "
 
 1. Clone the repo
 ```sh
-git clone https://github.com/MBHudson/Vigilante-Toolset.git
+sudo git clone https://github.com/MBHudson/Vigilante-Toolset.git
 ```
 2. Change Directory
 ```sh
@@ -121,7 +121,7 @@ cd Vigilante-Toolset
 ```
 3. Give Permissions
 ```sh
-chmod +x ./install.sh
+sudo chmod +x ./install.sh
 ```
 4. Edit Installer
 ```sh
@@ -130,11 +130,11 @@ Open "install.sh" and replace ALL "PUT_USER_NAME_HERE" strings to with the usern
 
 5. Run Installer
 ```sh
-./install.sh
+sudo ./install.sh
 ```
 6. Run Vigilante-Toolset
 ```sh
-./Vigilante
+sudo ./Vigilante
 ```
 <!-- USAGE EXAMPLES -->
 
@@ -148,7 +148,7 @@ cd Vigilante-Toolset
 ```
 Run Vigilante-Toolset
 ```sh
-./Vigilante
+sudo ./Vigilante
 ```
 
 ### Main Menu
