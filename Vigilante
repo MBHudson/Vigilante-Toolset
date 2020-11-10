@@ -17,13 +17,13 @@ echo -n "vigilante@torhunter:~#:"
 read option
 echo ""
 case $option in
-    1 ) sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/proxy.sh" & press_enter ;;  
-    2 ) sudo service tor stop ; press_enter ;;
-    3 ) sudo nmap 127.0.0.1 -PN ; press_enter ;;
-    4 ) sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/nmap.sh" & press_enter ;; 
-    5 ) sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/cport.sh" & press_enter ;;
-    6 ) sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/cproxy.sh" & press_enter ;;
-    t ) sudo terminator 2>/dev/null -e "sudo nano /home/username/Vigilante-Toolset/targets.txt" & press_enter ;;    
+    1 ) sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/proxy.sh" & press_enter ;;
+    2 ) sudo service tor stop ;;
+    3 ) sudo nmap 127.0.0.1 -PN ;;
+    4 ) sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/nmap.sh" & press_enter ;; 
+    5 ) sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/cport.sh" & press_enter ;;
+    6 ) sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/cproxy.sh" & press_enter;;
+    t ) sudo terminator 2>/dev/null -e "sudo nano /home/YOUR_USER_NAME/Vigilante-Toolset/targets.txt" & press_enter  ;;    
     b ) main_menu ;;
     * ) tput setf 4;echo "echo -n "vigilante@torhunter:~#:"";tput setf 4; 
 esac
@@ -44,15 +44,15 @@ echo -n "vigilante@torhunter:~#:"
 read option
 echo ""
 case $option in
-    1 ) sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/sql.sh" & press_enter ;;
-    2 ) sudo terminator 2>/dev/null -e "sudo nikto -host 127.0.0.1 -port 8000" & press_enter ;;
-    3 ) sudo terminator 2>/dev/null -e "sudo uniscan -u http://127.0.0.1:8000 -qwedsrgj" & ;;
-    4 ) sudo terminator 2>/dev/null -e "sudo uniscan -u http://127.0.0.1:8000 -q" & ;;
-    5 ) sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/bruTOR.sh" & press_enter ;;
-    6 ) etherape 2>/dev/nul | sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/ddos.sh" & press_enter ;;
-    7 ) etherape 2>/dev/nul | sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/ddosx4.sh" & press_enter ;;
-    8 ) etherape 2>/dev/nul | sudo terminator 2>/dev/null -e "sudo /home/username/Vigilante-Toolset/cDDoS" & press_enter ;;
-    t ) sudo terminator 2>/dev/null -e "sudo nano /home/username/Vigilante-Toolset/targets.txt" & press_enter ;;
+    1 ) sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/sql.sh" ;;
+    2 ) sudo terminator 2>/dev/null -e "sudo nikto -host 127.0.0.1 -port 8000" ;;
+    3 ) sudo terminator 2>/dev/null -e "sudo uniscan -u http://127.0.0.1:8000 -qwedsrgj"  ;;
+    4 ) sudo terminator 2>/dev/null -e "sudo uniscan -u http://127.0.0.1:8000 -q" ;;
+    5 ) sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/bruTOR.sh" ;;
+    6 ) etherape 2>/dev/nul | sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/ddos.sh" & ;;
+    7 ) etherape 2>/dev/nul | sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/ddosx4.sh" ;;
+    8 ) etherape 2>/dev/nul | sudo terminator 2>/dev/null -e "sudo /home/YOUR_USER_NAME/Vigilante-Toolset/cDDoS"& ;;
+    t ) sudo terminator 2>/dev/null -e "sudo nano /home/YOUR_USER_NAME/Vigilante-Toolset/targets.txt"  ;;
     b ) main_menu ;;
     * ) tput setf 4;echo "echo -n "vigilante@torhunter:~#:"";tput setf 4; 
 esac
@@ -72,11 +72,11 @@ until [ "$option" = "3" ]; do
  read option
  echo ""
  case $option in
- 1 ) sudo xdg-open 2>/dev/null https://iplocation.com/ ;;
- 2 ) sudo /home/username/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/start-tor-browser https://www.filedropper.com/ --no-remote & press_enter ;;
- 3 ) sudo /home/username/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/start-tor-browser https://protonirockerxow.onion/ --no-remote & press_enter ;;
- t ) sudo terminator 2>/dev/null -e "sudo nano /home/username/Vigilante-Toolset/targets.txt" & press_enter ;;
- secret ) sudo terminator 2>/dev/null -e "sudo nano /home/username/Vigilante-Toolset/wordlists/passswords.txt" & press_enter ;;
+ 1 ) xdg-open 2>/dev/null https://iplocation.com/ ;;
+ 2 ) /home/YOUR_USER_NAME/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/start-tor-browser https://www.filedropper.com/ ;;
+ 3 ) /home/YOUR_USER_NAME/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/start-tor-browser https://protonirockerxow.onion/ --no-remote  ;;
+ t ) terminator 2>/dev/null -e "sudo nano /home/YOUR_USER_NAME/Vigilante-Toolset/targets.txt" & press_enter ;;
+ secret ) sudo terminator 2>/dev/null -e "sudo nano /home/YOUR_USER_NAME/Vigilante-Toolset/wordlists/passswords.txt"  & press_enter ;;
  b ) main_menu ;;
  * ) tput setf 3;echo "echo -n "vigilante@torhunter:~#:"";tput setf 3;
  esac

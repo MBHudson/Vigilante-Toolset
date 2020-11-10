@@ -28,14 +28,14 @@ sudo chmod +x proxy.sh
 sudo chmod +x run.sh
 sudo chmod +x sql.sh
 sudo chmod +x Vigilante
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' Vigilante
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' bruTOR.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' cport.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' cproxy.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' ddos.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' ddos8000.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' ddosx4.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' nmap.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' proxy.sh
-sudo sed -i 's/username/PUT_USER_NAME_HERE/' sql.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' Vigilante
+sudo sed -i 's/username/YOUR_USER_NAME/' bruTOR.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' cport.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' cproxy.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' ddos.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' ddos8000.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' ddosx4.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' nmap.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' proxy.sh
+sudo sed -i 's/username/YOUR_USER_NAME/' sql.sh
 sudo ./Vigilante
