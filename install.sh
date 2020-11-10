@@ -19,6 +19,7 @@ sudo gcc cDDoS.c -o cDDoS
 sudo chmod +x proxy.sh
 sudo chmod +x cproxy.sh
 sudo chmod +x bruTOR.sh
+sudo chmod +x bruTOR
 sudo chmod +x cport.sh
 sudo chmod +x ddos.sh
 sudo chmod +x ddos8000.sh
