@@ -28,14 +28,16 @@ sudo chmod +x proxy.sh
 sudo chmod +x run.sh
 sudo chmod +x sql.sh
 sudo chmod +x Vigilante
-sudo sed -i 's/username/YOUR_USER_NAME/' Vigilante
-sudo sed -i 's/username/YOUR_USER_NAME/' bruTOR.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' cport.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' cproxy.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' ddos.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' ddos8000.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' ddosx4.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' nmap.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' proxy.sh
-sudo sed -i 's/username/YOUR_USER_NAME/' sql.sh
+echo "PLEASE ENTER THE USERNAME OF THE SESSION YOU ARE CURRENTLY LOGGED IN AS:" 
+read varusername 
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' Vigilante
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' bruTOR.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' cport.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' cproxy.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' ddos.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' ddos8000.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' ddosx4.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' nmap.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' proxy.sh
+sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' sql.sh
 sudo ./Vigilante
