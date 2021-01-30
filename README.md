@@ -184,7 +184,7 @@ See the [Tutorial Video](https://www.youtube.com/watch?v=-UL2hAGz8_0) for featur
 
 I have found that most of these types of sites are usually ran from an older Windows machine, sometimes a Raspberry Pi3 and not often updated. Minimal in power they are usually very easy to take down with DdoS attacks. I'm  working on the port scanner (update: I have added a port scanner now, customize what ports or do them all + decide what port to proxy 8000) and crawler but for now everything is based off of what would normaly be port 80. Menu 2 Option 4 finds admin logins and other pages that sometimes lead to the identity of who owns the server. Brute forcing is always an option, Option 5 I believe, but I would suggest supplemental word lists. Sometimes you can get lucky when searching through pages found from the directory scan and happen upon a SQL server. In such a case there are instructions within all terminal prompts guiding you as to what information is needed. 
 
-See the [Tutorial Video](https://www.youtube.com/watch?v=-UL2hAGz8_0) for features (and how to use them) More to come soon.
+See the [Tutorial Video](https://youtu.be/TWUNwyd0xEM) for features (and how to use them) More to come soon.
 
 
 <!-- CONTRIBUTING -->
