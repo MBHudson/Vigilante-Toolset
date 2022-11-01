@@ -9,7 +9,7 @@
 </a>
 
 <p align="center">
-TOR hacking toolkit designed specifically to combat illegal child exploitation websites. !!!Vigilante-Toolset is for EDUCATIONAL PURPOSES ONLY and should NEVER BE USED ILLEGALLY!!!
+Tor hacking toolkit designed specifically to combat illegal child exploitation websites. !!!Vigilante-Toolset is for EDUCATIONAL PURPOSES ONLY and should NEVER BE USED ILLEGALLY!!!
 <br />
 <a href="https://youtu.be/TWUNwyd0xEM"><strong>Proof of Concept/Tutorial Videos »</strong></a>
 <br />
