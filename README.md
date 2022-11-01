@@ -43,7 +43,7 @@ TOR hacking toolkit designed specifically to combat illegal child exploitation w
 
 ## About The Project
 
-~#: Vigilante-Toolset is a project with the goal in stopping the spread of child exploitation through TOR by finding, disabling and reporting child exploitation websites. The Concept works by proxying TOR through a localhost and then using an arsenal of the very same tools you've come to love, along with some super effective modded and original tools, against TOR websites. Every tool is automated and geared towards ease of use along with the project's specific purpose in mind. All attacks can be deployed in 7 key strokes or less. Automation designed so that anyone novice to pro can volunteer and make a difference. Don't let this tool set's easy of use fool you though, as you'll see from our YouTube channel, Vigilante-Toolset takes out TOR sites in real world situations with ease. 
+~#: Vigilante-Toolset is a project with the goal in stopping the spread of child exploitation through Tor by finding, disabling and reporting child exploitation websites. The Concept works by proxying Tor through a localhost and then using an arsenal of the very same tools you've come to love, along with some super effective modded and original tools, against Tor websites. Every tool is automated and geared towards ease of use along with the project's specific purpose in mind. All attacks can be deployed in 7 key strokes or less. Automation designed so that anyone novice to pro can volunteer and make a difference. Don't let this tool set's easy of use fool you though, as you'll see from our YouTube channel, Vigilante-Toolset takes out Tor sites in real world situations with ease. 
 
 **Tools** **Include** <i>more coming soon</i>
 
@@ -96,8 +96,8 @@ TOR hacking toolkit designed specifically to combat illegal child exploitation w
 
 * Terminator
 * Etherape
-* TOR
-* TOR Browser
+* Tor
+* Tor Browser
 * SoCat
 * python3-pip
 * Proxychains4
